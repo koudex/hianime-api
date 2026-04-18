@@ -4,12 +4,12 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanwtf7/hianime-api.git"
+    "url": "git+https://github.com/koudex/hianime-api.git"
   },
   "bugs": {
-    "url": "https://github.com/ryanwtf7/hianime-api/issues"
+    "url": "https://github.com/koudex/hianime-api/issues"
   },
-  "homepage": "https://github.com/ryanwtf7/hianime-api#readme",
+  "homepage": "https://github.com/koudex/hianime-api#readme",
   "scripts": {
     "dev": "bun run --hot index.ts",
     "start": "bun index.ts",
