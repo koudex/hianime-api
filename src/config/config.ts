@@ -12,7 +12,7 @@ const config = {
   enableLogging: false,
   isProduction: true,
   isDevelopment: false,
-  isVercel: false,
+  isVercel: process.env.VERCEL === '1',
 };
 
 export default config;
