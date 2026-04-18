@@ -59,4 +59,4 @@ app.notFound((c) => {
   return fail(c, 'Route not found', 404);
 });
 
-export default handle(app);
+export default async handle(app);
