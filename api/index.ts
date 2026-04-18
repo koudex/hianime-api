@@ -58,5 +58,7 @@ app.onError((err, c) => {
 app.notFound((c) => {
   return fail(c, 'Route not found', 404);
 });
-
-export default async handle(app);
+export const config = {
+  runtime: 'edge',
+};
+export default handle(app);
